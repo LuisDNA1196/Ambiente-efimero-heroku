@@ -5,8 +5,8 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Hola desde mi ambiente efímero</h1>
-    <p>Esta app fue desplegada en Heroku.</p>
+      <h1>Hola desde mi review app</h1>
+  <p>Este entorno es temporal y sirve para pruebas.</p>
   `);
 });
 
